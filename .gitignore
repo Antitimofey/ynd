@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# But not these files...
+!*.py
+!*.cpp
+!*.sh
+!*.ipynb
+
+# ...even if they are in subdirectories
+!*/
+
+# Prevent ignoring the .gitignore file itself
+!.gitignore
